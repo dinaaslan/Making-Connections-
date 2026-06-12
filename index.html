@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="column">
+            <div class="user-card">
+                <div class="top"></div>
+                <div class="content"> 
+                    <div class=”name”>
+                        <img src="/icons/account.png" alt="profile pic" class="profile-pic">
+                        <span class="user-name">Jane Doe</span>
+                    </div>
+                    <p class=”location”><img src ="icons/pin.webp" class="icons">Seattle</p> 
+                    <p class=”describtion”> Developer | Engineer | Problem Solver</p> 
+                    <p class=”describtion-2>Master of shadows and the Internet</p> 
+                    <div class=”settings” onclick="ChangeName (this)"><img src="icons/setting.png" class="icons">edit profile</div>   
+                </div>
+        </div>
+        <div class="education-card">
+            <div class="education">Education</div>
+            <div class="education-content">
+                <p>Coding Dojo-Full Stak Bootcamp </p>
+                <p class="date">Dec 2019 - March 2020</p>
+                <p>Triple back belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="request-card">
+            <div class="top2"> <span class="badge">2</span>Connection Requests</div>
+            <div class="connection-request">
+                <div class="name">
+                    <p><img src="/icons/account.png" alt="profile pic" class="profile-pic2">Todd E</p>
+                    <button class= "btn" onclick="removeRequest(this)">✓</button>
+                    <button class= "btn" onclick="removeRequest(this)">✖</button>
+                </div>
+                <div class="name">
+                    <p><img src="/icons/account.png" alt="profile pic" class="profile-pic2">Phil K</p>
+                    <button class= "btn" onclick="removeRequest(this)">✓</button>
+                    <button class= "btn" onclick="removeRequest(this)">✖</button>
+                </div>
+            </div>
+        </div>    
+            <div class="connection-card">
+                <div class="top2"><span class="badge">500+</span>Your Connections</div>
+                <div class="connections">
+                    <div class="con-name"><img src="/icons/account.png" alt="profile pic" class="profile-pic2">Adrien D</div>
+                    <div class="con-name"><img src="/icons/account.png" alt="profile pic" class="profile-pic2">Anne J</div>
+                    <div class="con-name"><img src="/icons/account.png" alt="profile pic" class="profile-pic2">Alayne T</div>
+                    <div class="con-name"><img src="/icons/account.png" alt="profile pic" class="profile-pic2">Arry Y</div>
+                </div>
+                <div class="view-more">View More</div>
+            </div>
+    </div>  
+    <script src="main.js"></script>     
+</body>
+</html>

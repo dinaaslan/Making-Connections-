@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: #333333;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.nav-title{
+    font-size: 50px;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: #17a2b8;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 5 solid black;
+    box-shadow: 3px 3px black;
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    gap:20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.user-card{
+    width: 500px;
+    height: 250px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.content{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.top{
+    background-color: #17a2b8;
+    height: 80px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 300;
+}
+.settings{
+    text-decoration: underline;
+    color: #17a2b8;
+}
+.profile-pic{
+    border-radius: 50%;
+    background-color: bisque;
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+.education-card{
+    width: 500px;
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.education{
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.education-content{
+font-size: 20px;
+padding: 10px;
+}
+.date{
+    color: lightslategray;
+    font-size: 18px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.request-card{
+    border: 1px solid gray;
+    width: 250px;
+    height: 150px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.top2{
+    background-color: #333333;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.badge{
+    background-color: #cccccc;
+    color: black;
+    border-radius: 100%;
+    padding: 3px;
+    margin-right: 10px; 
+}
+.request-card button{
+    border-radius: 100%;
+    width: 20px;
+    background-color: gray;
+    color: white;
+}
+.profile-pic2{
+    width: 20px;
+}
+
+
+.connection-card{
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    font-family: sans-serif;
+}
+.con-name{
+    display: flex;
+    margin: 10px 1px;
+}
+.connections{
+    font-size: 20px;
+    padding: 10px;
+}
+.view-more{
+    margin:10px;
+    color: blue;
+    text-decoration: underline;
+    border-top: 1px solid gray;
+    padding-top: 5px;
+}
